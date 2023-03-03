@@ -2,4 +2,4 @@
 Application for recording and monitoring health data
 
 
-[Overall Architecture](docs/images/overall-architecture.png)
+![Overall Architecture](docs/images/overall-architecture.png)
