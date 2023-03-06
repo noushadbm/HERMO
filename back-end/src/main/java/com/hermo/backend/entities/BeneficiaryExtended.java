@@ -16,14 +16,9 @@ public class BeneficiaryExtended {
 
     private String attributeName;
 
-    private String attributeType;
-
-    private String valueRange;
-
-    private boolean isNullable;
-
     private String attributeValue;
 
-    // Value to fill in case of nullable field changes to non-nullable
-    private String nullFillValue;
+    @ManyToOne
+    @JoinColumn(name = "fk_template_id", nullable = false)
+    private BeneficiaryFieldTemplate fieldTemplate;
 }
